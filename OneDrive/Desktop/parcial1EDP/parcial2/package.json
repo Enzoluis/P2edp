@@ -1,0 +1,27 @@
+{
+  "name": "anti-social",
+  "version": "1.0.0",
+  "description": "UnaHur anti-social net - TP",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.1",
+    "js-yaml": "^4.2.0",
+    "mongoose": "^9.7.1",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
